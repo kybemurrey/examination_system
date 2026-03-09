@@ -13,6 +13,7 @@ Arrays (storing multiple students)
 Functions (modular code organization)
 Structures (grouping related data)
 File Handling (saving and loading data)
+
 🏗️ Program Structure
 Student Structure
 struct Student {
@@ -27,6 +28,7 @@ displayStudents() - Display all students in table format
 searchStudent() - Search for a student by registration number
 saveToFile() - Save records to students.txt
 loadFromFile() - Load records from students.txt
+
 🚀 How to Compile and Run
 On Linux/macOS:
 gcc student_system.c -o student_system
@@ -35,12 +37,14 @@ On Windows:
 gcc student_system.c -o student_system.exe
 student_system.exe
 📖 How to Use
+
 Add Student: Enter registration number, name, age, and marks
 Display Students: View all students in a formatted table
 Search Student: Find a student by registration number
 Save to File: Persist data to students.txt
 Load from File: Retrieve previously saved data
 Exit: Close the program
+
 💡 Example Usage
 ===== STUDENT RECORD SYSTEM =====
 1. Add Student
@@ -57,10 +61,12 @@ Enter Name: John
 Enter Age: 20
 Enter Marks: 85.5
 Student added successfully!
+
 📁 Files
 student_system.c - Main source code
 students.txt - Data file (created after first save)
 README.md - This documentation
+
 🔑 Key Concepts Explained
 Pointers
 Used in functions like addStudent(struct Student students[], int *count) to modify the original count variable.
